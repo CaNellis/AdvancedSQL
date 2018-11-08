@@ -82,7 +82,7 @@ def temps(start, end):
 
 # define main behavior
 if __name__ == '__main__':
-    app.run
+    app.run(debug=True, port=5000)
 
 # export FLASK_APP=app2.py
 # python -m flask run
